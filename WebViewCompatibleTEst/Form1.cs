@@ -31,5 +31,15 @@ namespace WebViewCompatibleTEst
         {
             MessageBox.Show("Thanks!");
         }
+
+        private void webView1_DOMContentLoaded(object sender, Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT.WebViewControlDOMContentLoadedEventArgs e)
+        {
+
+        }
+
+        private void webView1_MouseClick(object sender, MouseEventArgs e)
+        {
+            MessageBox.Show("mouse click");
+        }
     }
 }
